@@ -1,0 +1,109 @@
+html,body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+
+}
+
+.container {
+    height: 100vh;
+}
+
+/* //----------------Top Container-----------------------// */
+
+.topContainer {
+    display: flex;
+    height: 60%;
+    background-color: #FFCD9E;
+    padding-top: 40px;
+    padding-left: 136px;
+    box-sizing: border-box;
+}
+
+/* //----------------Top Left Container-----------------------// */
+
+.topLeftContainer {
+    flex: 1;
+}
+
+.topLeftContainer h1 {
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.topLeftContainer p {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.topLeftThirdLine {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.topLeftInputContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputBox {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.inputBox input {
+    border: 2px solid #000000;
+    border-radius: 4px;
+    padding: 10px;
+    width: 300px;
+}
+
+.topLeftInputContainer button {
+    background-color: #000000;
+    color: #ffff;
+    padding: 10px;
+    width: 150px;
+    border-radius: 4px;
+}
+
+.topLeftContainer span {
+    color: #ffff;
+    font-size: 12px;
+    text-align: left;
+    margin-left: 25px;
+}
+
+/* //----------------Top Right Container-----------------------// */
+
+.topRightContainer {
+    padding-right: 136px;
+}
+
+.imgLogo {
+    height: 100%;
+    justify-content: end;
+}
+
+.imgLogo img {
+    height: 100%;
+}
+
+/* -------------------------Bottom Container------------------------ */
+
+.bottomContainer {
+    height: 40%;
+    background-color: #282828;
+    color: #ffff;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding:20px 136px 20px 136px;
+}
+
+.bottomContainer p{
+  font-size: 14px;
+}
+
+.bottomRight img{
+height: 15px;
+}
